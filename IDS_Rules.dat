@@ -1,0 +1,27 @@
+{
+  "white_list_rules": [
+    {"0": "13a200416317dd"},
+    {"88f8": "13a200416317e4"},
+    {"72dd": "13a200416317da"}
+  ],
+  "black_list_rules": [
+    {"ALL": "ALL"}
+  ],
+  "neighbor_list_rules": [
+    {
+      "id": "88f8",
+      "count": 2,
+      "neighbors": ["0","72dd"]
+    },
+    {
+      "id": "0",
+      "count": 2,
+      "neighbors": ["88f8","72dd"]
+    },
+    {
+      "id": "72dd",
+      "count": 2,
+      "neighbors": ["88f8","0"]
+    }
+  ]
+}
